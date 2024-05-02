@@ -1,0 +1,25 @@
+CREATE TABLE Department (
+    Dept_no VARCHAR(5)   NOT NULL,
+    Dept_name VARCHAR(100)   NOT NULL,
+    CONSTRAINT pk_Department PRIMARY KEY (
+        Dept_no
+     )
+);
+
+INSERT INTO Department (dept_no, dept_name)
+	VALUES ('d001','Marketing'),
+		('d002','Finance'),
+		('d003','Human Resources'),
+		('d004','Production'),
+		('d005','Development'),
+	    ('d006','Quality Management'),
+		('d007','Sales'),
+		('d008','Research'),
+		('d009','Customer Service');
+		
+		
+SELECT * FROM department;
+
+
+
+
